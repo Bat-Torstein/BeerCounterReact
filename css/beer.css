@@ -1,0 +1,18 @@
+﻿p {
+    font-size:150px;
+    display:inline;
+}
+
+div.beerDiv {
+    float:left;
+    margin-left:50px;
+    text-align:center;
+}
+
+a {
+   font-size: 50px;
+}    
+
+label {
+    font-size: 50px;
+}
