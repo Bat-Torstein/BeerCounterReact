@@ -18,9 +18,9 @@ var BeerCounter = React.createClass({
         return <div className='beerDiv'>
 					<img src='img/beer.jpg' onClick={self.addBeer}/>
 					<p>{self.state.counter}</p><br/>
-					<a href='' onClick={self.clearBeer}>Tøm</a>
+					<label onClick={self.clearBeer}>Tøm</label>
 				</div>;
     }
 });
 
-React.render(<BeerCounter/>, document.body);
+React.render(<BeerCounter/>, document.getElementById('myDiv'));
